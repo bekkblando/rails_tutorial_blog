@@ -1,0 +1,11 @@
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20150929-17697-gpd1s2.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20150929-17697-120y6sm
